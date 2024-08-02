@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(226, 174, 209);
+    background-color: rgb(241, 204, 229);
     color: black;
     margin: 0;
     padding: 0;
+    
+
 }
 
 .header{
-    background-color: rgb(226, 174, 209);
+    background-color: rgb(241, 204, 229);
     color: black;
     text-align: center;
     padding: 1em 0;
+    font-family: "Playwrite BE VLG", cursive;
 }
 
 h2 {
@@ -23,20 +28,20 @@ h2 {
     background-color: rgb(233, 228, 228);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .galeria img{
     
     margin: 20px;
     border-radius: 16px;
-    display: flex;
-    justify-content: space-around
+
 
 }
 
 .foto{
-    width: 50%;
-   
+    width: 29%;
+
 }
 
 
@@ -46,7 +51,7 @@ h2 {
 .footer{
     text-align: center;
     padding: 1em 0;
-    background-color: rgb(226, 174, 209);
+    background-color: rgb(241, 204, 229);
     color: rgb(14, 14, 14);
     position: fixed;
     bottom:0;
